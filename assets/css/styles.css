@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Source Code Pro", monospace;
+  line-height: 1.5;
+  background-color: #252525;
+  color: whitesmoke;
+  min-height: 100vh;
+  
+}
+.container{
+  
+    max-width: 100%;
+    margin-inline: auto;
+    padding: 1rem;
+}
+.inicio-texto p{
+  font-size: 1.8em;
+  margin:0;
+  padding-top: 15px;
+  height: fit-content;
+
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 600;
+  margin: 0;
+  height: fit-content;
+}
+h1 span{
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 64px;
+  font-weight: 500;
+}
+h3 {
+  font-size: 2em;
+  font-weight: 400;
+}
+/* ======== BARRA DE NAVEGACION ======== */
+nav {
+
+  position: sticky;
+}
+nav .navbar-brand {
+  color: #e4d1af;
+}
+.nav-link {
+  color: #e4d1af;
+}
+nav span img {
+  height: 53px;
+  width: 50px;
+  border-radius: 30px;
+  margin-right: 30px;
+}
+nav li a {
+  background-color: #252525;
+}
+.hov1,
+.hov2,
+.hov3,
+.hov4{
+  transition: 0.8s ease;
+}
+.hov1:hover {
+  background-color: #e4d1af;
+  border-radius: 20px;
+  color: #000a23;
+}
+.hov2:hover {
+  background-color: #e4d1af;
+  border-radius: 20px;
+  color: #000a23;
+}
+.hov3:hover {
+  background-color: #e4d1af;
+  border-radius: 20px;
+  color: #000a23;
+}
+.hov4:hover {
+  background-color: #e4d1af;
+  border-radius: 20px;
+  color: #000a23;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28228, 209, 175, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+/* ======== TERMINA BARRA DE NAVEGACION ======= */
+
+/* ======================== SECCION CONTENIDO ============================ */
+
+/* ====== INICIO ======= */
+.inicio{
+  height: 600px;
+}
+.inicio-texto{
+  padding-top: 200px;
+}
+
+/* ====== TERMINA INICIO ======= */
+
+
+/* ======= SECCION SOBRE MI ======= */
+.card{
+  margin: 0 auto;
+  background-color: #252525;
+  border-color:#e4d1af;
+}
+.card-body{
+  margin-top: 30px;
+}
+
+.boton-cv a{
+  margin-left: 70%;
+  padding: auto;
+  color: #e4d1af;
+  transition: .8s ease;
+  
+}
+
+/* ========= TERMINA SECCION SOBRE MI ======== */
+
+/* ========= INICIA SECCION HABILIDADES ===== */
+.border{
+  
+  margin-top: 50px;
+  border-color:#e4d1af ;
+  width: auto;
+  max-width: 88%;
+}
+.habilidades{
+  padding: 120px 0 75px 0;
+  height: 600px;
+}
+.habilidades ul{
+  list-style: none;
+  text-align:center;
+  font-size: 2em;
+}
+
+
+/* ========= TERMINA SECCION HABILIDADES ===== */
+
+/* ========= INICIA SECCION CONTACTO ===== */
+.redes{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.contacto{
+  max-width: 90%;
+  margin: 0 auto;
+}
+.iconos a{
+  align-items: center;
+}
+.bi{
+ font-size: 2.3em;
+ color: #e4d1af;
+}
+.h3contacto{
+  padding: 30px;
+  padding-bottom: 10px;
+}
+@media screen and (max-width: 992px){
+  .habilidades{
+    padding:80px 0 50px 0;
+  }
+}
+@media screen and (max-width: 954px) {
+  .inicio-texto h1{
+    font-size: 2.5em;
+  }
+  .inicio-texto p{
+    font-size: 1.5em;
+  }
+  h1 span{
+    font-size: 2rem;
+  }
+  
+}
+@media screen and (max-width: 800px) {
+  .inicio-texto h1{
+    font-size: 2em;
+  }
+  .inicio-texto p{
+    font-size: 1.3em;
+  }
+  h1 span{
+    font-size: 1.7rem;
+  }
+  
+
+}
+@media screen and (max-width: 648px) {
+  .inicio-texto h1{
+    font-size: 1.7em;
+  }
+  .inicio-texto p{
+    font-size: 1.1em;
+  }
+  h1 span{
+    font-size:1.3rem ;
+  }
+  .hb h3{
+    font-size:1.7rem ;
+  }
+  .ht h3{
+    font-size:1.7rem ;
+  }
+}
+  .hb ul{
+    font-size:1rem ;
+  }
+  .ht ul{
+    font-size:1rem ;
+  }
+
+@media screen and (max-width: 557px) {
+  .inicio-texto h1{
+    font-size: 1.4em;
+  }
+  .inicio-texto p{
+    font-size: .9em;
+  }
+  h1 span{
+    font-size: 1rem;
+  }
+
+  .hb ul{
+    font-size:1rem ;
+  }
+  .ht ul{
+    font-size:1rem ;
+  }
+}
+@media screen and (max-width: 462px) {
+  .inicio-texto h1{
+    font-size: 1em;
+  }
+  .inicio-texto p{
+    font-size: .6em;
+  }
+  h1 span{
+    font-size: .8rem;
+  }
+  .hb h3{
+    font-size:1.2rem ;
+  }
+  .ht h3{
+    font-size:1.2rem ;
+  }
+  .hb ul{
+    font-size:1rem ;
+  }
+  .ht ul{
+    font-size:1em ;
+  }
+  .inicio{
+    height: 800px;
+  }
+  .habilidades{
+    padding-top:80px;
+  }
+
+}
